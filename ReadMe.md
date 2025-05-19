@@ -26,7 +26,7 @@ You will also need to install a recent version of [CMake](https://cmake.org/down
 ## Building
 
 0. Clone the *Min-DevKit* from Github **into Max's Packages folder**. If you clone it elsewhere you will need to make an alias to it in your Packages folder.
-   - The *Packages* folder can be found inside of your *Max 8* folder which is inside of your user's *Documents* folder.
+   - The *Packages* folder can be found inside of your *Max 8* (or *Max 9*) folder which is inside of your user's *Documents* folder.
    - It is recommended to rename the package so as not to conflict with the legacy Max Package Manager version. (Otherwise you'll get conflict errors suggesting that you replace your local version with one on the PM server.)
    - Also make sure you clone recursively so that all sub-modules are properly initiated.
    - As a single command: `git clone https://github.com/Cycling74/min-devkit.git --recursive my-min-devkit`
